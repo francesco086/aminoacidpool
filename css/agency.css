@@ -123,7 +123,7 @@ h1,h2,h3,h4,h5,h6 {
 .navbar-default   .navbar-brand {
    color: #fed136;
    font-family: "Kaushan   Script","Helvetica
-   Neue",Helvetica,Arial,cursive
+   Neue",Helvetica,Arial,cursive;
 }
 .navbar-default      .navbar-brand:hover,.navbar-default     .navbar-brand:focus,.navbar-default
 .navbar-brand:active,.navbar-default  .navbar-brand.active {
@@ -164,7 +164,7 @@ a:focus {
    color: #fff;
    background-color: #fec503
 }
-@media  (min-width:768px) and (min-height:450px) {.navbar-default {
+@media  (min-width:768px) {.navbar-default {
    background-color: transparent;
    padding: 25px  0;
    -webkit-transition: padding  .3s;
@@ -551,10 +551,10 @@ aside.clients img {
 margin: 50px  auto
 }
 section#contact {
-background-color: #222;
-background-image: url(../img/map-image.png);
+background-color: #6BCAC6;
+/* background-image: url(../img/map-image.png);
 background-position: center;
-background-repeat: no-repeat
+background-repeat: no-repeat */
 }
 section#contact  .section-heading {
 color: #fff
