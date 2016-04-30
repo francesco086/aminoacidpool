@@ -265,7 +265,13 @@ header .intro-text .motto {
 }
 
 section {
-padding: 100px  0
+padding: 100px  0;
+height: 80%;
+width: 100%
+}
+section .container{
+   height: 100%;
+   width: 100%
 }
 section  h2.section-heading {
 font-size: 40px;
@@ -281,8 +287,36 @@ font-style: italic;
 font-weight: 400;
 margin-bottom: 75px
 }
-@media (min-width:768px) and (min-height:450px) {section {
-padding: 150px 0
+@media (min-width:768px) and (min-height:450px) {
+   section {
+   padding: 150px 0;
+   height: 80%;
+   width: 100%
+   }
+   section .container{
+      height: 100%;
+      width: 100%
+   }
+}
+
+
+section .demo-picture img{
+   height: auto;
+   width: auto;
+   max-height: 70%;
+   max-width: 70%;
+   min-height: 10%;
+   min-width: 10%
+}
+@media  (min-width:768px) and (min-height:450px){
+   section .demo-picture img{
+      height: auto;
+      width: auto;
+      max-height: 70%;
+      max-width: 70%;
+      min-height: 10%;
+      min-width: 10%
+   }
 }
 
 }
@@ -529,7 +563,6 @@ margin-top: 40px
 .timeline>li.timeline-inverted>.timeline-panel {
 padding: 0 100px 20px 20px
 }
-
 }
 .team-member {
 text-align: center;
