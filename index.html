@@ -44,6 +44,22 @@
     <meta name="msapplication-TileColor" content="#FFFFFF" />
     <meta name="msapplication-TileImage" content="https://francesco086.github.io/aminoacidpool/favicomatic/mstile-144x144.png" />
 
+    <style>
+    .mycontainer {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 56.25%;
+    }
+    .myvideo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    </style>
+
 </head>
 
 <body id="page-top" class="index">
@@ -109,7 +125,7 @@
     <!-- Learn More Section -->
     <section id="learn_more">
         <div class="container">
-            <div class="row">
+            <div class="row" style="margin-bottom:30px">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Features</h2>
                     <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
@@ -152,42 +168,29 @@
     <section id="demo">
        <div class="container">
 
-           <div class="row" style="position:relative;height:0;padding-bottom:30%">
+           <div class="row">
+               <div class="col-lg-12 text-center" style="margin-bottom:50px">
+                   <h2 class="section-heading">Watch our videos and discover our app</h2>
+               </div>
+           </div>
+
+           <div class="row text-center" style="margin-bottom:30px">
                <div class="col-md-6">
-                   <div class="container-fluid">
-                       <div class="row">
-                           <div class="col-lg-12 text-center">
-                               <h2 class="section-heading">The long story short</h2>
-                           </div>
-                       </div>
-                       <center>
-                           <div class="demo-picture">
-                               <div style="position:relative;height:0;padding-bottom:20%">
-                                   <iframe src="https://www.youtube.com/embed/bxihjSf3QxI?ecver=2" width="640" height="360" frameborder="0" allowfullscreen>
-                                   </iframe>
-                               </div>
-                           </div>
-                       </center>
+                   <div class="mycontainer">
+                       <iframe src="https://www.youtube.com/embed/bxihjSf3QxI" frameborder="0" allowfullscreen class="myvideo">
+                       </iframe>
                    </div>
                </div>
                <div class="col-md-6">
-                   <div class="container-fluid">
-                       <div class="row">
-                           <div class="col-lg-12 text-center">
-                               <h2 class="section-heading">The long story... long!</h2>
-                           </div>
-                       </div>
-                       <center>
-                           <div class="demo-picture">
-                               <div style="position:relative;height:0;padding-bottom:20%">
-                                   <iframe src="https://www.youtube.com/embed/5rave7W1dG8" width="640" height="360" frameborder="0" allowfullscreen>
-                                   </iframe>
-                               </div>
-                           </div>
-                       </center>
+                   <div class="mycontainer">
+                       <iframe src="https://www.youtube.com/embed/5rave7W1dG8" frameborder="0" allowfullscreen class="myvideo">
+                       </iframe>
                    </div>
                </div>
            </div>
+
+       </div>
+   </section>
 
 <!--
           <div class="row">
