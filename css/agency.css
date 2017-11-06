@@ -583,6 +583,26 @@ margin-top: 0
 aside.clients img {
 margin: 50px  auto
 }
+
+
+
+
+section#who_are_we {
+    text-align: center;
+    background-color: #6BCAC6;
+}
+section#who_are_we  .section-heading {
+color: #fff
+}
+section#who_are_we  .form-group {
+margin-bottom: 25px
+}
+
+
+section#donate {
+background-color: #FFFFFF;
+}
+
 section#contact {
 background-color: #6BCAC6;
 /* background-image: url(../img/map-image.png);
@@ -637,6 +657,7 @@ color: #bbb
 section#contact .text-danger {
 color: #e74c3c
 }
+
 footer {
 padding: 25px 0;
 text-align: center
@@ -762,4 +783,3 @@ background: 0 0
 body {
 webkit-tap-highlight-color: #fed136
 }
-
